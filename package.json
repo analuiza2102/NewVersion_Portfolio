@@ -10,10 +10,15 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.3.3",
+<<<<<<< HEAD
     "my-portfolio": "file:",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.26.2",
+=======
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+>>>>>>> 246ce3167ff3fe159ac7a6374913265fc1ac5ce8
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
@@ -40,10 +45,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+<<<<<<< HEAD
   },
   "devDependencies": {
     "autoprefixer": "^10.4.20",
     "postcss": "^8.4.47",
     "postcss-preset-env": "^10.0.5"
+=======
+>>>>>>> 246ce3167ff3fe159ac7a6374913265fc1ac5ce8
   }
 }
