@@ -1,0 +1,60 @@
+/* src/Styles/Section.css */
+
+/* Container principal da seção */
+.section-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px; /* Espaçamento interno ajustado */
+  background-color: #292828;
+  color: #ffffff;
+  height: 100vh; /* Ocupar toda a altura da tela */
+  overflow: hidden; /* Evita overflow no conteúdo */
+}
+
+/* Área de texto */
+.text-area {
+  padding: 20px;
+  max-width: 50%; /* Limita a largura máxima da área de texto */
+}
+
+.text-area p {
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+  text-align: justify;
+}
+
+/* Container da imagem */
+.image-container {
+  display: flex;
+  justify-content: flex-end; /* Alinha as imagens à direita */
+  width: 50%; /* A imagem ocupa 50% da largura do container */
+  margin: 0;
+  overflow: hidden; /* Evita overflow no container */
+}
+
+/* Estilo para a imagem */
+.image {
+  width: 100%;
+  height: auto;
+  max-width: 600px; /* Limita a largura máxima */
+  object-fit: cover;
+}
+
+/* Responsividade para dispositivos menores */
+@media (max-width: 960px) {
+  .section-container {
+    flex-direction: column;
+    align-items: center;
+    height: auto; /* Remove a altura fixa para dispositivos móveis */
+  }
+
+  .text-area, .image-container {
+    width: 100%; /* Cada seção ocupa 100% da largura */
+    margin-bottom: 20px;
+  }
+
+  .image {
+    max-width: 100%; /* A imagem ocupa 100% da largura em dispositivos menores */
+  }
+}
